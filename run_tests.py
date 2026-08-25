@@ -22,7 +22,7 @@ def execute_list_tests(input_option="2"):
     tests_names = []
     if input_option.lower() == "2.a" or input_option == "2":
         tests_names.append("test_array_list")
-    if input_option.lower() == "2.B" or input_option == "2":
+    if input_option.lower() == "2.b" or input_option == "2":
         tests_names.append("test_single_linked_list")
     for test_name in tests_names:
         execute_pytest_test(test_name)
